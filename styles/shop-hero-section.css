@@ -1,0 +1,49 @@
+*{
+  font-family: "Inter", serif;
+}
+.hero-section {
+   padding: 20px 50px;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 54%), rgba(0, 0, 0, 0.815)), 
+              url("/images/shop.jpg");
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat; /* Ensures the image is not repeated */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: top; /* Aligns the image at the top */
+  color: white;
+}
+
+
+.hero-main-content p{
+  text-align: center;
+  font-size: 30px;
+  width: 730px;
+
+}
+
+.hero-main-content button{
+  background-color: #BF6262;
+  width: 129px;
+  height: 39px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+  font-family: "Inter", serif;
+  cursor: pointer;
+}
+
+.main-content-home{
+  display: grid;
+  justify-content: center;
+}
+
+
+.category{
+  font-size: 20px;
+}
+

@@ -1,0 +1,45 @@
+*{
+  font-family: "Inter", serif;
+}
+
+
+.hero-section {
+  margin-top: 30px;
+   padding: 20px 50px;
+  height: 700px;
+  background: linear-gradient(rgba(71, 69, 69, 0.644), rgba(0, 0, 0, 0.856)), 
+              url("/images/shoeback.jpg");
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat; /* Ensures the image is not repeated */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: top; /* Aligns the image at the top */
+  color: white;
+}
+
+
+.hero-main-content p{
+
+  font-size: 30px;
+
+}
+
+.hero-main-content button{
+  background-color: #ff0a0a;
+  width: 129px;
+  height: 39px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.message p{
+  font-family: "Inter", serif;
+  font-size: 30px;
+  width: 500px;
+}

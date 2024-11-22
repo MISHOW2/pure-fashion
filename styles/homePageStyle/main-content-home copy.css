@@ -1,0 +1,205 @@
+*{
+  font-family: "Inter", serif;
+}
+
+.product-container{
+  width: 230px;
+  height: 411px;
+
+}
+
+.product-container img{
+  width: 230px;
+  height: 233px;
+}
+
+.collection-flex{
+  display: flex;
+  justify-content: center;
+  gap: 97px;
+}
+
+.product-container button{
+ width: 117px;
+ height: 39px;
+ border: none;
+ cursor: pointer;
+ background-color: #DE4747;
+   color: #000000;
+}
+.product-container{
+    color: #000000;
+
+}
+
+.main-content-home{
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+    color: #000000;
+}
+
+.image-collection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.category{
+
+  font-size: 40px;
+}
+.book{
+
+  font-size: 40px;
+  color: #000000;
+}
+.explore{
+  width: 117px;
+  height: 39px;
+  border: none;
+  background-color: #000000;
+    color: #000000;
+}
+
+
+
+.display-shoe{
+  margin-top: 100px;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  color: #000000;
+  background-color: rgb(95, 185, 185);
+  justify-content: space-around;
+}
+
+.display-shoe a{
+  color: white;
+  text-decoration: none;
+}
+
+.display-shoe p{
+  font-size: 17px;
+  font-weight: 200;
+  width: 300px;
+}
+
+.image-content img{
+  width: 250px;
+  height: 300px;
+}
+
+.display-images{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+}
+.image-content{
+  width: 300px;
+}
+
+.info{
+  font-size: 12px;
+  width: 250px;
+
+}
+.info a{
+  color: white;
+  text-decoration: none;
+}
+
+.info button {
+  width: 100%;
+}
+
+.image-div img{
+  height: 400px;
+ 
+}
+.cat-p{
+  width: 910px;
+  text-align: center;
+  height: 240px;
+  font-size: 28px;
+}
+.book {
+  font-size: 30px;
+}
+.featured-dresses{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+
+.buttonExplore{
+  width: 117px;
+  height: 39px;
+  border: none;
+  background-color: #141414;
+  font-size: 16px;
+    color: #000000;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+.carousel-container img {
+  width: 200px;
+  height: 300px;
+  margin: 0 10px;
+  transition: transform 0.5s ease;
+  transform-origin: center;
+}
+
+.carousel-container img:hover {
+  transform: scale(1.1);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.carousel-container.curved {
+  display: flex;
+  justify-content: center;
+  transform: rotateY(15deg);
+  perspective-origin: 50% 100px;
+}
+
+
+
+
+
+

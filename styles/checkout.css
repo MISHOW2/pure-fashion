@@ -1,0 +1,115 @@
+
+body{
+  font-family: "Inter", serif;
+  padding: 50px;
+}
+
+
+.flexbox{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.paymentP, .summaryP{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.summaryOrder, .payment-details{
+ width: 428px ;
+}
+ .payment-details, .summaryOrder {
+  font-size: 15px;
+ }
+
+ .paymentDetails a{
+  color: #000000;
+  font-size:24px ;
+  font-weight: bold;
+  margin-top: 10px;
+ }
+  form{
+    width: 249px;
+  }
+  form label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;  /* Add space below the label */
+    display: block;  /* Ensure the label takes up the full width */
+  }
+  
+  form input {
+    width: 243px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.384);  /* Fixed the border syntax */
+    font-size: 13px;
+    margin-bottom: 15px;  /* Add space below the input for form spacing */
+  }
+  
+
+ form button{
+  width:249px;
+  background-color: rgba(0, 0, 0, 0.74);
+  height: 36px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+ }
+
+ .total, .vat, .subtotal{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+ }
+
+ .cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.summaryOrderContainer {
+  padding: 20px 0;
+}
+
+.subtotal, .vat, .total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.checkout-product-container {
+  max-height: 400px; /* Adjust as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+  border: 1px solid #ddd; /* Optional: adds a border for clarity */
+  padding: 15px; /* Optional: adds padding for spacing */
+}
+
+/* Checkout product styling */
+.checkout-product {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap; /* Prevents wrapping */
+  margin-top: 10px;
+  width: 417px;
+}
+
+.checkout-product img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.flex-details {
+  display: flex;
+  flex-direction: column; /* Align details vertically */
+}
+
+.paymentDetails{
+ margin-top: 100px;
+}

@@ -1,0 +1,39 @@
+.hero-section {
+  padding: 20px 50px;
+ height: 600px;
+ background: linear-gradient(rgba(0, 0, 0, 54%), rgba(0, 0, 0, 54%)), 
+             url("/images/pexels-solliefoto-313702.jpg");
+ display: flex;
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ background-repeat: no-repeat; /* Ensures the image is not repeated */
+ background-size: cover; /* Ensures the image covers the entire div */
+ background-position: top; /* Aligns the image at the top */
+ color: white;
+ text-align: center;
+
+}
+
+.contactP{
+  font-size: 32px;
+}
+
+.flex-contact img{
+  width: 50px;
+  height: 50px;
+}
+.flex-contact{
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  gap: 50px;
+}
+
+.contactSocialP{
+  font-size: 20px ;
+}
+
+.map{
+  width: 400px;
+}

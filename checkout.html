@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnct" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="images/logo.png">
+  <link rel="stylesheet" href="styles/checkout.css">
+  
+  <title>Checkout</title>
+</head>
+<body>
+
+  
+  <div class="flexbox">
+    <div class="checkoutContainer">
+      <div class="summaryOrder">
+        <p class="summaryP">Summary Order</p>
+        <p>Check your items and select your shipping for a better experience ordering items.</p>
+        
+        <div class="summaryOrderContainer checkout-product-container"> <!-- Updated here -->
+          <!-- Cart items will be injected here dynamically -->
+        </div>
+      </div>
+      
+      <div class="paymentDetails">
+        <a href="shop.html">Continue Shopping</a>
+      </div>
+    </div>
+  
+    <div class="payment-details">
+      <p class="paymentP">Payment Details</p>
+      <p>Complete your purchase by providing your payment details.</p>
+      <form>
+        <label for="email">Email Address</label><br>
+        <input type="email" name="email" placeholder="Email Address" required><br>
+      
+        <label for="cardHolder">Card Holder</label><br>
+        <input type="text" name="cardHolder" placeholder="Card Holder Details" required><br>
+      
+        <label for="cardDetails">Card Details</label><br>
+        <input type="number" name="cardDetails" placeholder="Card Number" required><br>
+      
+        <!-- Totals Section -->
+        <div class="subtotal">
+          <p>Subtotal</p>
+          <p>R 0</p>
+        </div>
+      
+        <div class="vat">
+          <p>VAT (15%)</p>
+          <p>R 0</p>
+        </div>
+      
+        <div class="total">
+          <p>R 0</p>
+          <p>R 0</p>
+        </div>
+      
+        <button type="submit">Pay</button>
+        <p class="paymentSuccess"></p>
+      </form>
+      
+    </div>
+  </div>
+  
+  <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>

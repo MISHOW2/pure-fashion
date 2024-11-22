@@ -1,0 +1,26 @@
+
+# 4-VUT Student App - Chatbot Responses
+
+## Campus Information
+1. **Library Hours**: "The library is open from 8 AM to 6 PM, Monday to Friday."
+2. **Where is the Library**: "The library is located on the north side of the campus, near Building C."
+3. **Admin Office Hours**: "The admin office operates from 9 AM to 5 PM, Monday to Thursday, and 9 AM to 3 PM on Fridays."
+4. **Where is the Admin Office**: "The admin office is located in Building A, Room 101."
+5. **Cafeteria Hours**: "The cafeteria is open from 7 AM to 7 PM every weekday."
+6. **Where is the Gym**: "The gym is located in the Sports Complex, Building F."
+
+## Academic Assistance
+1. **Help with Studies**: "You can visit the academic advising office in Building B, Room 204. Office hours are from 10 AM to 4 PM."
+2. **Where is the Tutoring Center**: "The tutoring center is located in Building D, Room 102. It's open from 9 AM to 5 PM, Monday to Friday."
+3. **Exam Schedule**: "You can check your exam schedule through the student portal or at the registrar's office in Building A."
+4. **Join Study Group**: "You can join study groups by visiting the academic advising office or signing up through the student portal."
+
+## Social & Well-being
+1. **Social Clubs**: "There are various social clubs available, including sports, art, tech, and more. Visit the student center to learn more."
+2. **Mental Health Services**: "The mental health counseling office is in Building E, Room 202. Office hours are 9 AM to 4 PM, Monday to Friday."
+3. **Career Advising**: "The career advising office offers help with resumes, internships, and job searches. Visit them in Building C, Room 303."
+
+## General Help & Fallback Responses
+1. **Contact Information**: "You can contact the general student helpdesk at +123 456 789 or email support@studenthelp.com."
+2. **Campus Map**: "You can download the campus map from the student portal or pick one up at the admin office."
+3. **Fallback Response**: "Sorry, I didn't quite catch that. You can ask about library hours, admin office, tutoring, social clubs, or mental health services!"

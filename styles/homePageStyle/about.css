@@ -1,0 +1,99 @@
+*{
+  font-family: "Inter", serif;
+ 
+}
+
+.hero-section {
+   padding: 20px 50px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat; /* Ensures the image is not repeated */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: top; /* Aligns the image at the top */
+  color: rgb(0, 0, 0);
+  text-align: center;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.hero-section p{
+
+   text-decoration: dashed;
+  font-size: 96px;
+
+}
+
+.hero-main-content button{
+  background-color: #BF6262;
+  width: 129px;
+  height: 39px;
+  border: none;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+
+  cursor: pointer;
+}
+
+.main-content-home{
+  display: grid;
+  justify-content: center;
+}
+
+
+
+
+
+
+.main-about-content{
+
+ color: rgb(8, 8, 8);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+}
+.main-about-content img{
+  width: 389px;
+  height: 309px;
+  border-radius: 15px;
+
+}
+.heading{
+  font-size: 40px;
+}
+
+.flex{
+  display: flex;
+  gap: 100px;
+  
+}
+.flex p{
+  width:531px ;
+  font-size: 22px;
+}
+
+.contactUs{
+  background-color: #BF6262;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  font-family: "inter";
+  font-family: 100;
+}
+
+
+
+
+.flex ul{
+  list-style: none;
+}

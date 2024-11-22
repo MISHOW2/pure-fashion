@@ -1,0 +1,73 @@
+*{
+  font-family: "Inter", serif;
+}
+
+.newArrivals-flex{
+  display: flex;
+  flex-wrap:wrap ; /* This will wrap items into multiple rows */
+  justify-content: center; /* Center items in each row */
+  gap: 77px; /* Keeps your original gap between items */
+  max-width: 1226px; /* Sets the width to fit 4 items in each row */
+  margin: 0 auto; /* Centers the entire flexbox container */
+}
+
+.product-container {
+  width: 233px; /* Keeps the original size of the product container */
+  height: 431px; /* Keeps the original size of the product container */
+  color: rgb(0, 0, 0);
+
+
+}
+
+.product-container img {
+  width: 100%;
+  height: 283px; /* Keeps the original image size */
+}
+
+.product-container button {
+  width: 117px;
+  height: 39px;
+  border: none;
+  cursor: pointer;
+  background-color: #DE4747;
+  color: white;
+}
+
+
+
+
+
+.category{
+
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+}
+
+.image-collection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.checkoutLink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.featured-flex{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.Featured-Dresses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

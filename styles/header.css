@@ -1,0 +1,167 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 87.48px;
+  padding: 10px 30px;
+  font-family: "Inter", serif;
+  position: fixed;
+  top: 0; /* Position at the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  z-index: 1000; /* Make sure it appears above other content */
+}
+
+.header-log{
+  display: flex;
+align-items: center;
+gap: 40PX;
+}
+
+.logo img {
+  width: 140px;
+  height: 110px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 78px;
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.nav li a:hover{
+ 
+  color: rgb(10, 134, 118);
+
+  font-weight: 700;
+}
+
+.cart, .search, .user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-icons{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  cursor: pointer;
+}
+.header-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart p {
+  font-size: 19px;
+}
+.cart img{
+  width: 30px;
+}
+
+.cart-container {
+  width: 431px;
+  position: absolute; /* Positions the cart container absolutely */
+  top: 108px; /* Adjust to position below the cart */
+  right: 0; /* Adjust based on your layout */
+  background-color: white;
+  border: 1px solid #ccc;
+  display: none; /* Initially hidden, you can show it when cart is clicked */
+  z-index: 100; /* Ensure it appears above other elements */
+  padding: 20px;
+  border: none;
+  
+  /* Add these two properties for scrolling behavior */
+  max-height: 400px; /* Set the maximum height for the cart */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+}
+
+.product-cart-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.product-cart-container img {
+  width: 79px;
+  height: 79px;
+}
+
+.count {
+  display: flex;
+  gap: 23px;
+}
+
+.product-cart-container div {
+  flex-grow: 1;
+  margin-left: 35px;
+}
+
+.product-cart-container button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.checkoutBtn, .clearCartBtn{
+  background-color: #BF6262;
+  border: none;
+  width: 112px;
+  height: 39px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.clearCartBtn{
+  background-color: #000000;
+ 
+}
+
+.btnExplore a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.user{
+  position: relative;
+}
+
+.userbox{
+  position: absolute;
+  top: 60px;
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+ 
+}
+
+.userbox a{
+  
+  color: #000000;
+}

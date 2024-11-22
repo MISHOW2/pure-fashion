@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="flex-display">
+
+    <div class="right-side">
+      <div class="mainDiv">
+        <h1>Hello, There</h1>
+        <p>Enter your personal details and start shopping with us</p>
+        <div>
+          <button class="signUpButton">Sign Up</button>
+        </div>
+      </div>
+      <div class="secDiv" style="display: none;">
+        <h1>Welcome Back</h1>
+        <p>Please enter your personal details and continue shopping with us</p>
+        <div>
+          <button class="signInButton">Sign In</button>
+        </div>
+      </div>
+    </div>
+    <div class="left-side">
+      <!-- Sign In Form -->
+      <div class="mainForm">
+        <div class="top">
+          <p class="header-message">Pure Fashion</p>
+
+          <div>
+            <p>Or use your email account</p>
+          </div>
+        </div>
+        <form class="signInForm" action="">
+          <input type="text" id="signInEmail" placeholder="Email">
+          <input type="password" id="signInPassword" placeholder="Password">
+          <div>
+            <button type="submit" class="submit">Sign In</button>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="signUpForm" style="display: none;">
+        <p class="header-message">Sign up and start Shopping</p>
+        <form action="">
+          <input type="text" id="signUpName" placeholder="Names">
+          <input type="text" id="signUpEmail" placeholder="Email">
+          <input type="password" id="signUpPassword" placeholder="Password">
+          <input type="password" id="rePassword" placeholder="Re-enter Password">
+          <div>
+            <button class="submit" >Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script type="module" src="scripts/login.js"></script>
+</body>
+</html>
